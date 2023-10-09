@@ -1,16 +1,28 @@
 <DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-	<meta name="description" content="Free Web tutorials">
-	<meta name="keywords" content="HTML, CSS, JavaScript">
-	<meta name="author" content="John Doe">
 		<title>Hola mundo</title>
-	<style>
-		body background-color: powderblue;
-  		h1 color: red;
-  		p color: blue;
-	</style>
+		<meta charset="UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="John Doe">	
 	</head>
-	<body>Hola Mundo</body>
+	<style>
+			body {background-color: powderblue;}
+  			h1 {color: red;}
+  			p {color: blue;}
+	</style>
+	<body onload="saludo()">
+		<h1 id="titulo" onclick="cambia_color()">Hola Mundo</h1>
+		<p>Esto es una prueba</p>
+		<script>
+   			function saludo() {
+     		alert("Bienvenido");
+     	}
+     		function cambia_color() {
+     		document.getElementById("titulo").style.color="darkgreen";
+     	}
+		</script> 
+	</body>
+
 </html>
