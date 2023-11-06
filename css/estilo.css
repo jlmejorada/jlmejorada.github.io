@@ -1,0 +1,13 @@
+body {
+	margin: 12px;
+	background-color:LightYellow;
+	color:RebeccaPurple;
+}
+table {
+	border:1px;
+	background-color:lightsteelblue;
+	border-radius: 4px;
+}
+a{
+	text-decoration: none;
+}
