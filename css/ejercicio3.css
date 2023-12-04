@@ -1,0 +1,61 @@
+#t2{
+	border: solid 1px;
+	width: 50%;
+	margin-left: 25%;
+}
+.celda{
+	border: solid 1px;
+	margin-left: 25%;
+	padding: 10px;
+}
+#div1{
+	border: solid 1px;
+	width: 50%;
+	margin-left: 25%;
+}
+.fila{
+	display: flex;
+	margin: 1px;
+}
+.colum{
+	display: inline-block;
+	border: solid 1px;
+	margin: 1px;
+	border-color: black;
+	width: 30%;
+	padding: 10px;
+}
+#div1{
+	border: solid 1px;
+	width: 50%;
+	margin-left: 25%;
+}
+.fila{
+	display: flex;
+	margin: 1px;
+}
+.colum{
+	display: inline-block;
+	border: solid 1px;
+	margin: 1px;
+	border-color: black;
+	width: 30%;
+	padding: 10px;
+}
+#div2{
+	border: solid 1px;
+	width: 50%;
+	margin-left: 25%;
+}
+.fila2{
+	display: flex;
+	margin: 1px;
+}
+.colum2{
+	display: inline-block;
+	border: solid 1px;
+	margin: 1px;
+	border-color: black;
+	width: 50%;
+	padding: 10px;
+}

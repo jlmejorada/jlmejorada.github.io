@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#contenedor{
+    padding: 1px;
+    background-color: blueviolet;
+}
+body{
+    margin: 5%;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    padding: 1%;
+    border: solid 2px black;
+    background-color: red;
+    margin-bottom: 2em;
+
+}
+ul li{
+    display: inline;
+    padding: 2%;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li :hover{
+    background-color: orange;
+}
+
+@media screen and (width >=600px){
+    section{
+        margin: 2%;
+        width: 40%;
+        display: inline-table;
+    }
+    img{
+        float: left;
+        margin: 1em;
+        width: 60%;
+        vertical-align: text-top;
+    }
+}
+
+@keyframes menu {
+  0%   {background-color:red}
+  25%  {background-color:yellow}
+  50%  {background-color:blue}
+  75%  {background-color:green}
+  100% {background-color:red}
+}
+nav a:hover{
+    animation-name: menu;
+     animation-duration: 4s;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+}
+
+img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+}

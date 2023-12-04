@@ -47,7 +47,10 @@ a{
 	background-color: lightskyblue;
 }
 .div3{
-	background-color: lightpink;
+	background-image: url("../imagenes/mickey.png");
+	background-position: bottom right;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
 }
 .rojo{
 	background-color: red;
